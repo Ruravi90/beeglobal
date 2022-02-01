@@ -1,0 +1,171 @@
+.speedDialAddElement {
+  background-color: #fafafa;
+  width: 50px;
+  min-height: 50px;
+  position: absolute;
+  top: 50px;
+  right: -5px;
+  padding: 2.5px;
+  text-align: center;
+  justify-content: center;
+  z-index: 150;
+
+  .buttonAddElement {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15pt;
+    line-height: 2.2;
+    -webkit-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    border: none;
+    background-color: #347ab6;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #6740b3;
+    }
+
+    &.active {
+      background-color: #e52822;
+      -webkit-transform: rotate(-40deg);
+      -moz-transform: rotate(-40deg);
+    }
+  }
+
+  .contentAddElement {
+    display: none;
+    &.active {
+      display: block;
+    }
+    button {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 15pt;
+      line-height: 2.2;
+      -webkit-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+      box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+      border: none;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+.SelectView {
+  background-color: #fafafa;
+  width: 50px;
+  min-height: 50px;
+  position: absolute;
+  top: 105px;
+  right: -5px;
+  padding: 2.5px;
+  text-align: center;
+  justify-content: center;
+  z-index: 140;
+  .buttonSelectView {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15pt;
+    line-height: 2.2;
+    -webkit-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #159588;
+
+    &.matters {
+      background-color: #6740b3;
+    }
+
+    i.hide {
+      display: none;
+    }
+    .count {
+      min-width: 20px;
+      min-height: 20px;
+      border-radius: 50%;
+      background-color: #f19e21;
+      position: absolute;
+      right: 0px;
+      top: 1px;
+      color: #fff;
+      font-size: 7pt;
+    }
+  }
+}
+
+.speedDialCalendar {
+  background-color: #fafafa;
+  width: 50px;
+  min-height: 50px;
+  position: absolute;
+  top: 160px;
+  right: -5px;
+  padding: 2.5px;
+  text-align: center;
+  justify-content: center;
+  z-index: 130;
+
+  .buttonSelectCalendar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15pt;
+    line-height: 2.2;
+    -webkit-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    border: none;
+    background-color: #aaa;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #23527c;
+    }
+
+    &.active {
+      background-color: #e52822;
+      -webkit-transform: rotate(-40deg);
+      -moz-transform: rotate(-40deg);
+    }
+  }
+
+  .contentSelectElement {
+    display: none;
+    &.active {
+      display: block;
+    }
+    button {
+      width: 45px;
+      color: #fff;
+      background-color: #f19e21;
+      border-radius: 10%;
+      font-size: 7pt;
+      line-height: 2;
+      -webkit-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+      box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.5);
+      border: none;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+  }
+}

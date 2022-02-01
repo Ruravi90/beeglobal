@@ -1,0 +1,15 @@
+.ankaCropper__navButton {
+    height: 20px!important;
+    width: 20px!important;
+    position: relative;
+    svg {
+      stroke: #eee;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+    }
+}
+.ankaCropper__saveButton {
+    padding: 4px 10px !important;
+    height: 30px !important;
+}

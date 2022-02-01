@@ -1,0 +1,14 @@
+@import "./_variables";
+@import "./_mixins";
+@import "./components/_login";
+@import "./components/_conteiner";
+@import "./components/_tasks";
+@import "./components/_speedDial";
+@import "./components/_ankaCropper";
+
+html,
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}

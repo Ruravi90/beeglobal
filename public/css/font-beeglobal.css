@@ -1,0 +1,484 @@
+@font-face {
+  font-family: "beeglobal";
+  src: url("../font/beeglobal/beeglobal.eot?4r10ee");
+  src: url("../font/beeglobal/beeglobal.eot?4r10ee#iefix")
+      format("embedded-opentype"),
+    url("../font/beeglobal/beeglobal.ttf?4r10ee") format("truetype"),
+    url("../font/beeglobal/beeglobal.woff?4r10ee") format("woff"),
+    url("../font/beeglobal/beeglobal.svg?4r10ee#beeglobal") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bee {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "beeglobal" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bee-actividades:before {
+  content: "\e900";
+  color: #aaa;
+}
+
+.bee-agregar:before {
+  content: "\e901";
+}
+
+.bee-asunto-flecha:before {
+  content: "\e902";
+  color: #fff;
+}
+
+.bee-bandeja:before {
+  content: "\e903";
+}
+
+.bee-bote:before {
+  content: "\e904";
+  color: #aaa;
+}
+
+.bee-calendario:before {
+  content: "\e905";
+}
+
+.bee-campana:before {
+  content: "\e906";
+  color: #a8a8a8;
+}
+
+.bee-carpeta:before {
+  content: "\e907";
+}
+
+.bee-checklist:before {
+  content: "\e908";
+}
+
+.bee-clip:before {
+  content: "\e909";
+  color: #aaa;
+}
+
+.bee-completado:before {
+  content: "\e90a";
+}
+
+.bee-completados:before {
+  content: "\e90b";
+}
+
+.bee-configuracion:before {
+  content: "\e90c";
+  color: #aaa;
+}
+
+.bee-copiardocumento:before {
+  content: "\e90d";
+}
+
+.bee-descripcion:before {
+  content: "\e90e";
+  color: #7f7f7f;
+}
+
+.bee-descripcion-o:before {
+  content: "\e90f";
+  color: #4981c2;
+}
+
+.bee-drag:before {
+  content: "\e910";
+}
+
+.bee-equipo:before {
+  content: "\e911";
+  color: #aaa;
+}
+
+.bee-excel .path1:before {
+  content: "\e912";
+  color: rgb(169, 169, 170);
+}
+
+.bee-excel .path2:before {
+  content: "\e913";
+  margin-left: -1.25em;
+  color: rgb(169, 169, 170);
+}
+
+.bee-excel .path3:before {
+  content: "\e914";
+  margin-left: -1.25em;
+  color: rgb(255, 255, 255);
+}
+
+.bee-excel .path4:before {
+  content: "\e915";
+  margin-left: -1.25em;
+  color: rgb(255, 255, 255);
+}
+
+.bee-excel .path5:before {
+  content: "\e916";
+  margin-left: -1.25em;
+  color: rgb(169, 169, 170);
+}
+
+.bee-excel .path6:before {
+  content: "\e917";
+  margin-left: -1.25em;
+  color: rgb(255, 255, 255);
+}
+
+.bee-home:before {
+  content: "\e918";
+  color: #aaa;
+}
+
+.bee-icon-beeglobal .path1:before {
+  content: "\e919";
+  color: rgb(29, 29, 27);
+}
+
+.bee-icon-beeglobal .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-icon-beeglobal .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-icon-beeglobal .path4:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-icon-beeglobal .path5:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-icon-beeglobal .path6:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-icon-beeglobal .path7:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-icon-beeglobal-bco:before {
+  content: "\e920";
+  color: #fff;
+}
+
+.bee-icon-corpodata .path1:before {
+  content: "\e921";
+  color: rgb(142, 187, 19);
+}
+
+.bee-icon-corpodata .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(71, 129, 190);
+}
+
+.bee-info:before {
+  content: "\e923";
+}
+
+.bee-link:before {
+  content: "\e924";
+  color: #aaa;
+}
+
+.bee-logo-beeglobal .path1:before {
+  content: "\e925";
+  color: rgb(29, 29, 27);
+}
+
+.bee-logo-beeglobal .path2:before {
+  content: "\e926";
+  margin-left: -5.7041015625em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-logo-beeglobal .path3:before {
+  content: "\e927";
+  margin-left: -5.7041015625em;
+  color: rgb(156, 155, 155);
+}
+
+.bee-logo-beeglobal .path4:before {
+  content: "\e928";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path5:before {
+  content: "\e929";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path6:before {
+  content: "\e92a";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path7:before {
+  content: "\e92b";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path8:before {
+  content: "\e92c";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path9:before {
+  content: "\e92d";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path10:before {
+  content: "\e92e";
+  margin-left: -5.7041015625em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-logo-beeglobal .path11:before {
+  content: "\e92f";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path12:before {
+  content: "\e930";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path13:before {
+  content: "\e931";
+  margin-left: -5.7041015625em;
+  color: rgb(73, 129, 194);
+}
+
+.bee-logo-beeglobal .path14:before {
+  content: "\e932";
+  margin-left: -5.7041015625em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-logo-beeglobal .path15:before {
+  content: "\e933";
+  margin-left: -5.7041015625em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-logo-beeglobal .path16:before {
+  content: "\e934";
+  margin-left: -5.7041015625em;
+  color: rgb(29, 29, 27);
+}
+
+.bee-logo-beeglobal-bco:before {
+  content: "\e935";
+  color: #fff;
+}
+
+.bee-logo-corpodata .path1:before {
+  content: "\e936";
+  color: rgb(142, 187, 19);
+}
+
+.bee-logo-corpodata .path2:before {
+  content: "\e937";
+  margin-left: -2em;
+  color: rgb(142, 187, 19);
+}
+
+.bee-logo-corpodata .path3:before {
+  content: "\e938";
+  margin-left: -2em;
+  color: rgb(142, 187, 19);
+}
+
+.bee-logo-corpodata .path4:before {
+  content: "\e939";
+  margin-left: -2em;
+  color: rgb(142, 187, 19);
+}
+
+.bee-logo-corpodata .path5:before {
+  content: "\e93a";
+  margin-left: -2em;
+  color: rgb(142, 187, 19);
+}
+
+.bee-logo-corpodata .path6:before {
+  content: "\e93b";
+  margin-left: -2em;
+  color: rgb(71, 129, 190);
+}
+
+.bee-logo-corpodata .path7:before {
+  content: "\e93c";
+  margin-left: -2em;
+  color: rgb(71, 129, 190);
+}
+
+.bee-logo-corpodata .path8:before {
+  content: "\e93d";
+  margin-left: -2em;
+  color: rgb(71, 129, 190);
+}
+
+.bee-logo-corpodata .path9:before {
+  content: "\e93e";
+  margin-left: -2em;
+  color: rgb(71, 129, 190);
+}
+
+.bee-logo-corpodata .path10:before {
+  content: "\e93f";
+  margin-left: -2em;
+  color: rgb(142, 187, 19);
+}
+
+.bee-logo-corpodata .path11:before {
+  content: "\e940";
+  margin-left: -2em;
+  color: rgb(71, 129, 190);
+}
+
+.bee-luna:before {
+  content: "\e941";
+}
+
+.bee-lupa:before {
+  content: "\e942";
+  color: #aaa;
+}
+
+.bee-magic:before {
+  content: "\e943";
+}
+
+.bee-menu:before {
+  content: "\e944";
+  color: #aaa;
+}
+
+.bee-notas:before {
+  content: "\e945";
+  color: #aaa;
+}
+
+.bee-notification:before {
+  content: "\e946";
+  color: #aaa;
+}
+
+.bee-pendientes:before {
+  content: "\e947";
+  color: #aaa;
+}
+
+.bee-plus:before {
+  content: "\e948";
+  color: #aaa;
+}
+
+.bee-proyectos:before {
+  content: "\e949";
+  color: #aaa;
+}
+
+.bee-repo:before {
+  content: "\e94a";
+}
+
+.bee-repo-clone:before {
+  content: "\e94b";
+}
+
+.bee-revisado-1 .path1:before {
+  content: "\e94c";
+  color: rgb(169, 169, 170);
+}
+
+.bee-revisado-1 .path2:before {
+  content: "\e94d";
+  margin-left: -0.9453125em;
+  color: none;
+}
+
+.bee-revisado-1 .path3:before {
+  content: "\e94e";
+  margin-left: -0.9453125em;
+  color: rgb(255, 255, 255);
+}
+
+.bee-seguimiento:before {
+  content: "\e94f";
+}
+
+.bee-sin-completar:before {
+  content: "\e950";
+}
+
+.bee-sol:before {
+  content: "\e951";
+}
+
+.bee-switch-o:before {
+  content: "\e952";
+}
+
+.bee-tarea:before {
+  content: "\e953";
+}
+
+.bee-tarea-flecha:before {
+  content: "\e954";
+}
+
+.bee-tarea-recurrente:before {
+  content: "\e955";
+}
+
+.bee-tareas:before {
+  content: "\e956";
+}
+
+.bee-triangulo:before {
+  content: "\e957";
+}
+
+.bee-usuario:before {
+  content: "\e958";
+}
